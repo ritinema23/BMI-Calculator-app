@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>bmi calculator</title>
+    <link rel="stylesheet" type="text/css" href="Bmi.css">
+</head>
+<body>
+    <div class="Female">
+      <h3>Body mass index (BMI) for females =20.9</h3>
+      <h2>Normal Weight</h2>
+      <br>
+      <div class="form">
+        <form onclick="return false">
+          <label>height(m) females</label>
+          <input type="number" class="height">
+          <br><br>
+          <label>weight(kg) females</label>
+          <input type="number" class="weight">
+          <br><br>
+          <label>Total BMI</label>
+          <input type="number" class="bmi" disabled >
+          <br><br><br>
+          <input type="submit" class="btn" onclick="bmicalcy()" value="CALCULATE" >
+        </form>
+        <div class="text">
+          <h6> </h6>
+        </div>
+     </div>
+    </div>
+
+    <script src="Bmi.js"></script>
+</body>
+</html>
